@@ -5,6 +5,8 @@
     <ShopInfo/>
     <AboutMe/>
     <ShopWorks/>
+    <ShopContact/>
+    <ShopMap/>
   </section>
 </template>
 <script>
@@ -13,6 +15,8 @@ import AppHeader from './AppHeader.vue'
 import ShopInfo from './ShopInfo.vue'
 import AboutMe from './AboutMe.vue'
 import ShopWorks from './ShopWorks.vue'
+import ShopContact from './ShopContact.vue'
+import ShopMap from './ShopMap.vue'
 
 export default {
   components: {
@@ -21,11 +25,8 @@ export default {
     ShopInfo,
     AboutMe,
     ShopWorks,
+    ShopContact,
+    ShopMap,
   }
 }
 </script>
-<style lang="scss" scoped>
-.top-page {
-  padding-bottom: 50px;
-}
-</style>
