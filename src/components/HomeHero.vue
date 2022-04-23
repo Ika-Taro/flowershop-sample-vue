@@ -7,6 +7,7 @@ div
     .hero-logo
       img.hero-logo-img(src= "../assets/flowershoplogo.jpg")
 </template>
+
 <script lang="ts">
 import { Component, Watch, Vue } from 'vue-property-decorator'
 
@@ -39,7 +40,9 @@ export default class SlideShow extends Vue {
   }
 }
 </script>
+
 <style lang="stylus">
+
 .slide-outer
   position relative
   overflow hidden
