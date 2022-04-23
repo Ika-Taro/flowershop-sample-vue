@@ -1,7 +1,7 @@
 <template lang="pug">
 div
-  v-container.contact
-    p.contact-text contact/access
+  v-container
+    p.section-text works
   v-container
     <v-carousel show-arrows-on-hover>
       .carousel-item

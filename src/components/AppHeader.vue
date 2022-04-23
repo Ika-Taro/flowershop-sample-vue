@@ -1,6 +1,6 @@
 <template lang="pug">
-  <v-toolbar dense>
-    v-toolbar-title FlowerShopTaro
+  <v-toolbar dark class="toolbar">
+    .toolbar-title Flower Shop Taro
 
     v-spacer
 
@@ -12,3 +12,13 @@
 
   </v-toolbar>
 </template>
+
+<style lang="stylus" scoped>
+
+.toolbar-title
+  font-family: 'Square Peg', cursive;
+  margin-left 8px
+  font-size 30px
+  font-weight bold
+
+</style>

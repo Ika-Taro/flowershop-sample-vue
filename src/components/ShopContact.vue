@@ -1,11 +1,11 @@
 <template lang="pug">
 div#contact_access
-  v-container.contact
-    p.contact-text contact/access
+  v-container
+    p.section-text contact/access
   v-container.box-ilb
     v-row
-      <v-col cols="12" sm="6" class="lib-lm">
-        p.shop-info FlowerShopTaro
+      <v-col cols="12" sm="6" class="lib-lm explanation-note">
+        p FlowerShopTaro
           br
           | 000-0000 青森県八戸市XXXXXXXXXXXXXXXXXXXXXX
           br
@@ -23,7 +23,7 @@ div#contact_access
           br
           |*定休日の月曜日は、ご予約の配達業務のみ対応致します
         </v-col>
-      <v-col cols="12" sm="6" class="lib-rm">
+      <v-col cols="12" sm="6" class="lib-rm explanation-note">
         p.shop-info お花やサービス、お店に関するご質問やご不明点などは、
           br
           | お電話、もしくはFAXよりお気軽にお問い合わせください。
@@ -34,16 +34,9 @@ div#contact_access
       </v-col>
 </template>
 
-<style lang="stylus">
-
-.contact-text
-  text-align center
-  font-weight bold
-  padding-bottom 15px
-  border-bottom 2px solid black
+<style lang="stylus" scoped>
 
 .lib-lm
-  vertical-align middle
   padding 40px
   @media screen and (max-width: 600px) {
     text-align center
@@ -51,8 +44,9 @@ div#contact_access
   }
 
 .lib-rm
-  vertical-align middle
   padding 40px
+  @media screen and (min-width: 600px) {
   border-left 1px solid black
+  }
 
 </style>
