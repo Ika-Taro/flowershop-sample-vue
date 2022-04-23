@@ -9,14 +9,14 @@ div
 </template>
 
 <script lang="ts">
-import { Component, Watch, Vue } from 'vue-property-decorator'
+import { Component, Vue } from 'vue-property-decorator'
 
 @Component({
 })
 
 export default class SlideShow extends Vue {
   private currentSlide = 0
-  private slides: any = [
+  private slides = [
     { img: require('@/assets/flowershop-hero1.jpg') },
     { img: require('@/assets/flowershop-hero2.jpg') },
   ]
