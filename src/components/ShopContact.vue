@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+div#contact_access
   v-container.contact
     p.contact-text contact/access
   v-container.box-ilb

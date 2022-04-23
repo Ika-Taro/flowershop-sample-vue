@@ -29,4 +29,19 @@ export default {
     ShopMap,
   }
 }
+
+window.addEventListener('load', (event) => {
+
+			document.getElementById('access-btn').addEventListener('click', () => {
+
+				var contact_access  = document.getElementById('contact_access');
+				var content_position = contact_access.getBoundingClientRect();
+
+				window.scrollTo( 0, content_position.top,);
+        contact_access.scrollIntoView({
+        behavior : 'smooth',
+        })
+
+			});
+		});
 </script>
