@@ -26,3 +26,9 @@ export default {
   }),
 }
 </script>
+
+<style>
+#app{
+font-family: 'Lora','Noto Serif JP', serif;
+}
+</style>
