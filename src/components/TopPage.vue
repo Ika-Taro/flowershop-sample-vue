@@ -30,7 +30,7 @@ export default {
   }
 }
 
-window.addEventListener('load', (event) => {
+window.addEventListener('load', () => {
 
 			document.getElementById('access-btn').addEventListener('click', () => {
 
