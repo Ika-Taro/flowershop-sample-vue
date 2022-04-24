@@ -18,9 +18,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
-        with:
+        env:
           ftp-server: ${{ secrets.FTP_HOST }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: ./flower-shop-taro-sample/
+          local-dir: ./dist
+          server-dir: ./flower-shop-taro-sample
