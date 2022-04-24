@@ -22,6 +22,7 @@ jobs:
           ftp-server: ${{ secrets.FTP_HOST }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist
           server-dir: 	/home/users/2/staba.jp-ika-taro/web/
+          local-dir: dist
+          
           ARGS: --delete
