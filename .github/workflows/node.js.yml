@@ -18,11 +18,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
-        env:
+        with:
           ftp-server: ${{ secrets.FTP_HOST }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
           server-dir: 	/home/users/2/staba.jp-ika-taro/web/
           local-dir: dist
-          
-          ARGS: --delete
