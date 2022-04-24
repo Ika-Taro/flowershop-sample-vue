@@ -23,4 +23,4 @@ jobs:
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist
-          server-dir: 	/home/users/2/staba.jp-ika-taro/web/
+          server-dir: ./
