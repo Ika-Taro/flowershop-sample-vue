@@ -79,4 +79,5 @@ export default class SlideShow extends Vue {
   height 200
   width 200
 
+  
 </style>
