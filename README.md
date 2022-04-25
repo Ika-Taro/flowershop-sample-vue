@@ -1,24 +1,34 @@
-# vue-project3
+## アプリケーション名
 
-## Project setup
-```
-npm install
-```
+フラワーショップのサンプルサイト
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## アプリケーション概要
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Vue.jsを用いて作成したSPAのホームページサンプル
 
-### Lints and fixes files
-```
-npm run lint
-```
+## URL
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://flower-shop-taro-sample.tk/
+
+## アプリケーションを作成した背景
+
+個人的に利用しているお花屋さんのホームページ作成のためのサンプルサイト。
+
+
+## 実装予定の機能
+
+お花屋さんと相談して決める予定。
+
+## 開発環境
+
+- フロント: Vue.js,  Vuetify, JavaScript, TypeScript, HTML(Pug), CSS(Stylus)
+- インフラ: レンタルサーバー
+- テキストエディタ: Vscode
+- バージョン管理: GitHub
+
+## 工夫したポイント
+
+1. HERO画面のフェードアニメーション
+2. お花屋さんがインスタグラムを主に利用しているのでリンクボタンの作成。
+3. アクセスボタンを押すとページの下部にスクロールするアニメーション。
+4. Vuetifyを用いたレスポンシブデザイン。
